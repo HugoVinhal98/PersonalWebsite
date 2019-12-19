@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hugo Vinhal</title>
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="public/css/styles.css">
+  <script src="https://kit.fontawesome.com/abfdf94c21.js"></script>
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top one">
+    <a class="navbar-brand" href="#">Hugo Vinhal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <!-- Titulo -->
+  <div class="title-class">
+    <img class="img-fluid" src="public/images/foto.png" alt="">
+    <h1 class="titulo">Hi, my name is Hugo, and I am a Junior Software Developer!</h1>
+    <form action="https://www.linkedin.com/in/hugovinhal/">
+      <button type="submit" class="btn btn-primary btn-lg col-lg-2 col-md-3" name="button"><i
+          class="fab fa-linkedin"></i>
+        LinkedIn</button></form>
+    <form action="public/resume.pdf" method="get">
+      <button type="submit" class="btn btn-primary btn-lg download-button col-lg-2 col-md-3" name="button"><i
+          class="fas fa-file-download"></i> CV</button>
+    </form>
+  </div>
+
+  <!-- PortFolio -->
+  <div class="container-fluid port-class" id="portfolio">
+    <h1>Portfolio</h1>
+    <div class="row">
+      <div class="pricing-column col-lg-6 col-md-6">
+        <div class="card text-center">
+          <div class="card-header">
+            <h3>Bike Sharing</h3>
+          </div>
+          <div class="card-text">
+            <p>Rent a bike, get the number of calories spent in a trip and travel around with electrical bicycles!
+              Calculate the distance of the paths you want to take and keep them on your profile!</p>
+            <p>Developed in:</p>
+            <p><i class="fab fa-java tools"></i></p>
+          </div>
+          <div class="card-body">
+            <form action="https://github.com/HugoVinhal98/BikeSharing">
+              <button title="Github Repository" type="submit" class="btnCard"><i class="fab fa-github"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-6 col-md-6">
+        <div class="card text-center">
+          <div class="card-header">
+            <h3>Risk Assessment</h3>
+          </div>
+          <div class="card-text">
+            <p>Calculate the risk assessment for a specific case(ie property location) and a set of covers. With the
+              help of Google API, locate the nearest fire department or hospital!</p>
+            <p>Developed in:</p>
+            <p><i class="fab fa-java tools"></i></p>
+          </div>
+          <div class="card-body">
+            <form action="https://github.com/HugoVinhal98/RiskAssessment">
+              <button title="Github Repository" type="submit" class="btnCard"><i class="fab fa-github"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-12">
+        <div class="card text-center">
+          <div class="card-header">
+            <h3>MyOwnCutlery</h3>
+          </div>
+          <div class="card-text">
+            <p>As administrator create new products, machines for the factory and control all of the process on the
+              graphical interface! As an user, sign-up and start making your own orders from the list of products we
+              offer!</p>
+            <p>Developed in:</p>
+            <br>
+            <p><i class="fab fa-node tools"></i> <i class="fab fa-html5 tools"></i> <i
+                class="fab fa-css3-alt tools"></i> <i class="fab fa-vuejs tools"></i></p>
+            <br>
+            <img src="public/images/dotnet.png" class="cardImgs dotnet">
+            <img src="public/images/threejs.png" class="cardImgs threejs">
+          </div>
+          <div class="card-body">
+            <form action="https://github.com/HugoVinhal98/MyOwnCutlery">
+              <button title="Github Repository" type="submit" class="btnCard"><i class="fab fa-github"></i></button>
+            </form>
+            <form
+              action="https://myowncutlery2019.z33.web.core.windows.net/?fbclid=IwAR00vv9UN9kkUxgkbSM8Q2_2k03nhICk3bdsu40XQmz6SOWtA9KwBnB7-ps#/login">
+              <button title="Live website" type="submit" class="btnCard"><i class="fas fa-sign-in-alt"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="container-fluid about-class" id="about">
+    <div class="all-about">
+      <h1>About</h1>
+
+      <div class="who-am-i row">
+
+        <h3 class="col-lg-12">Who am I?</h3>
+        <p>Born in Vila do Conde, Porto, Portugal, I have always been someone who has a passion for technology. Being
+          able
+          to create new things by only using a laptop and explore the infamous possibilities of software development
+          make
+          me want to learn more everyday.</p>
+
+
+
+        <!-- <div class="soft-skills row"> -->
+
+        <div class="col-lg-4 skill">
+          <h3>Communication</h3>
+          <br>
+          <p>Often forgoten nowadays, i believe that communication will always be one of the keys to success. The
+            ability
+            not only to speak, but also to listen.</p>
+        </div>
+
+        <div class="col-lg-4 skill">
+          <h3>Teamwork</h3>
+          <br>
+          <p>With communication comes teamwork, which is also valuable in any kind of project. Demonstrate my
+            understanding and appreciation to my partners when it comes to accomplish our goals.</p>
+        </div>
+
+        <div class="col-lg-4 skill">
+          <h3>Problem-solving skills</h3>
+          <br>
+          <p>More focused on my particular area, I consider myself as a person who doesn't give up easily on a task.
+            When I set a standard for something I have to get it done as better and faster as I can.</p>
+        </div>
+      </div>
+
+      <!-- </div> -->
+      <div>
+        <h3>What I've learned so far</h3>
+        <div class="software row" id="skills">
+          <div class="col-lg-3 col-md-4 part">
+            <b>Java</b>
+            <p class="dots"><i class="fas fa-circle green"></i><i class="fas fa-circle green"></i></i><i
+                class="fas fa-circle green"></i><i class="fas fa-circle green"></i><i class="far fa-circle"></i></p>
+          </div>
+          <div class="col-lg-3 col-md-4 part">
+            <b>Node.js</b>
+            <p class="dots"><i class="fas fa-circle green"></i><i class="fas fa-circle green"></i><i
+                class="fas fa-circle green"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+          </div>
+          <div class="col-lg-3 col-md-4 part">
+            <b>.NET</b>
+            <p class="dots"><i class="fas fa-circle green"></i><i class="fas fa-circle green"></i><i
+                class="fas fa-circle green"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+          </div>
+          <div class="col-lg-3 col-md-4 part">
+            <b>Vue.js</b>
+            <p class="dots"><i class="fas fa-circle green"></i><i class="fas fa-circle green"></i><i
+                class="fas fa-circle green"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+          </div>
+          <div class="col-lg-6 col-md-4 part">
+            <b>HTML5</b>
+            <p class="dots"><i class="fas fa-circle green"></i><i class="fas fa-circle green"></i><i
+                class="fas fa-circle green"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+          </div>
+          <div class="col-lg-6 col-md-4 part">
+            <b>CSS</b>
+            <p class="dots"><i class="fas fa-circle green"></i><i class="fas fa-circle green"></i><i
+                class="fas fa-circle green"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+          </div>
+          <div class="col-lg-12 col-md-12 part">
+            <b>C/C++</b>
+            <p class="dots"><i class="fas fa-circle green"></i><i class="fas fa-circle green"></i><i
+                class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Contacts -->
+  <footer class="contacts">
+    <b><i class="far fa-envelope"></i> hugomvinhal@gmail.com</b>
+    <b><i class="fab fa-github"></i> github.com/HugoVinhal98</b><br><br>
+    <p>Hugo Vinhal @2019</p>
+  </footer>
+
+</body>
+
+</html>

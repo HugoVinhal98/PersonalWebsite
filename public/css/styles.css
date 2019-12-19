@@ -1,0 +1,233 @@
+body{
+  text-align: center;
+  color: white;
+}
+
+form{
+  display: inline;
+}
+
+.titulo{
+  font-size: 2vw;
+}
+
+.container-fluid{
+  color: #222831;
+  padding: 5% 8% 5% 8%;
+}
+/* Nav Bar */
+.navbar{
+  background-color: #222831;
+  border-bottom: 2px solid #00adb5;
+}
+
+.navbar-brand{
+  padding: 0 1% 0 1%;
+}
+.navbar-nav{
+  padding: 0 3% 0 0;
+}
+.nav-item {
+  padding: 0 10px;
+}
+
+/* Titulo */
+
+.title-class{
+  background-color: #222831;
+  padding: 9%;
+}
+
+img{
+  border-radius: 50%;
+  margin-bottom: 3%;
+}
+
+.btn{
+  margin: 3% 1% 0 1%;
+  background-color: #00adb5;
+  border-color: #00adb5;
+}
+
+.btn:hover{
+  background-color: #048b92;
+  border-color: #048b92;
+}
+
+
+/* Portfolio */
+.port-class{
+  background-color: white;
+}
+
+.row{
+  margin-top: 4%;
+}
+
+.card{
+  box-shadow: 0px 0px 20px #575656;
+  margin-bottom: 30px;
+}
+
+.card-text{
+  padding: 3% 2% 0 2%;
+}
+
+.card-body{
+  padding: 20px;
+}
+
+.tools{
+  font-size: 70px;
+  padding: 0 2% 0 2%;
+}
+
+.cardImgs{
+  margin: 0 2% 0 2%;
+}
+
+.dotnet{
+  width: 60px;
+  height: auto;
+}
+
+.threejs{
+  width: 120px;
+  height: auto;
+}
+
+.btnCard{
+  font-size: 25px;
+  border-radius: 100%;
+  margin: auto;
+  float: right;
+  background-color: #222831;
+  color: white;
+  margin: 0 0 0 1%;
+}
+
+.btnCard:hover{
+  background-color: #222831;
+  -moz-box-shadow: 0 0 20px #575656;
+-webkit-box-shadow: 0 0 20px #575656;
+box-shadow: 0 0 20px #575656;
+}
+
+/* About */
+
+.about-class{
+  background-color: #eeeeee;
+  color: #222831;
+}
+
+.all-about{
+  margin: auto;
+  width: 85%;
+}
+.soft-skills{
+  margin-bottom: 60px;
+}
+.who-am-i{
+  margin: 60px 0 70px 0;
+}
+
+.skill{
+  padding: 40px 80px 40px 80px;
+}
+
+.software{
+  margin: 70px 0 70px 0;
+}
+
+b{
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+.dots{
+  display: inline;
+  font-size: 15px;
+}
+
+.fa-circle{
+  margin: 0 5px 0 5px;
+}
+.green{
+  color: #00adb5;
+}
+
+.part{
+  margin: 10px 0 10px 0;
+  font-size: 2vw;
+}
+
+/* Contacts */
+.contacts{
+  background-color: #222831;
+  padding: 1% 8% 0.1% 8%;
+}
+
+.contacts b{
+  font-size: 13px;
+}
+
+.contacts p{
+  font-size: 9px;
+}
+
+.one{
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(40deg, #292f3a 80%, #222831 20%);
+}
+
+
+@media only screen and (max-width: 450px) {
+  .fa-circle{
+    margin: 0 2px 0 2px;
+  }
+  .dots{
+    display: block;
+  }
+  .software{
+    margin: 40px 0 40px 0;
+  }
+  .part{
+    margin: 5px 0 5px 0;
+  }
+  .skill{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1540px) {
+  .all-about{
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1610px) {
+  .one{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(40deg, #292f3a 70%, #222831 30%);
+  }
+}
+
+@media only screen and (max-width: 356px) {
+  .skill h3{
+    font-size: 20px;
+  }
+  .skill p{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  img{
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+  .titulo{
+    font-size: 15px;
+  }
+}
