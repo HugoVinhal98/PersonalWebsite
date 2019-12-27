@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   text-align: center;
   color: white;
@@ -30,6 +34,7 @@ form{
 .nav-item {
   padding: 0 10px;
 }
+
 
 /* Titulo */
 
