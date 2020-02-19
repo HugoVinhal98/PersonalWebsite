@@ -131,7 +131,7 @@ img{
   background-color: #222831;
   -moz-box-shadow: 0 0 20px #575656;
 -webkit-box-shadow: 0 0 20px #575656;
-box-shadow: 0 0 20px #575656;
+box-shadow: 0 0 10px #575656;
 }
 
 /* About */
